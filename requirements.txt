@@ -1,0 +1,4 @@
+# Only needed for the model and media passes.
+# The deterministic pipeline (python code/main.py --no-model) runs on the standard library alone.
+# Pinned to the minor version this was built and tested against (2.9.0).
+google-genai>=2.9,<3.0
